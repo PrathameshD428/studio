@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Doma AI',
+  title: 'Domestika AI',
   description: 'AI companion that helps millions of creatives learn faster, practice better, and share more confidently.',
 };
 

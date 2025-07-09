@@ -1,4 +1,4 @@
-# Doma AI - Your Creative AI Companion
+# Domestika AI - Your Creative AI Companion
 
 This is a Next.js application built with Firebase Studio. It's an AI companion designed to help creatives learn faster, practice better, and share more confidently.
 

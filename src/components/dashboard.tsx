@@ -84,7 +84,7 @@ export function Dashboard() {
         <SidebarHeader>
           <div className="flex items-center gap-2">
             <DomaAILogo />
-            <h1 className="text-xl font-semibold font-headline">Doma AI</h1>
+            <h1 className="text-xl font-semibold font-headline">Domestika AI</h1>
           </div>
         </SidebarHeader>
         <SidebarContent>
