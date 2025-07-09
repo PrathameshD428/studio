@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Next.js App",
+      "name": "Next.js: App",
       "type": "node-terminal",
       "request": "launch",
       "command": "npm run dev",
@@ -11,6 +11,18 @@
         "uriFormat": "%s",
         "action": "openExternally"
       }
+    },
+    {
+      "name": "Genkit: AI Backend",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run genkit:dev"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug: All",
+      "configurations": ["Next.js: App", "Genkit: AI Backend"]
     }
   ]
 }
