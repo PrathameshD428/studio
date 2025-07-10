@@ -2,6 +2,15 @@
 
 This is a Next.js application built with Firebase Studio. It's an AI companion designed to help creatives learn faster, practice better, and share more confidently.
 
+## Core Features
+
+*   **Skill Navigator**: Provides personalized course and project recommendations based on the user's current skill level, learning goals, and interests.
+*   **Project Spark**: Generates creative project ideas to inspire users and help them overcome creative blocks.
+*   **Critique AI**: Offers AI-driven feedback on user-submitted projects, evaluating aspects like composition, color, and technique.
+*   **Connect Hub**: A directory of creative peers and experts, enabling users to find collaborators and mentors.
+*   **My Journey**: A visual timeline of the user's progress, including completed courses, projects, and achievements.
+*   **Share Space**: A community gallery where users can showcase their work and discover projects from other creatives.
+
 ## Local Development Setup
 
 Follow these instructions to run the project on your local machine.
@@ -68,3 +77,14 @@ npm run dev
 ```
 
 The application will be available at [http://localhost:9002](http://localhost:9002).
+
+## Known Gaps and Next Experiments
+
+While the core features provide a strong foundation, there are several areas for future development and experimentation:
+
+*   **Deeper Personalization**: The current onboarding is form-based. A more interactive, conversational onboarding flow could gather richer data for a more tailored experience from day one.
+*   **True Co-creation Tools**: "Critique AI" is a feedback tool. The next step is a true co-creation feature, where the AI acts as a creative partner in real-time (e.g., suggesting color palettes, generating sketch variations, or helping write creative briefs).
+*   **Dynamic Social Interaction**: The "Connect Hub" and "Share Space" are currently static. The next experiments would involve adding real-time comments, direct messaging, and group formation to foster a more vibrant community.
+*   **Gamified Journey**: "My Journey" is a timeline. We can evolve this by adding gamification elements like skill trees, XP systems, and community-based challenges to boost engagement and motivation.
+*   **Metrics and Analytics**: Implement a full metrics dashboard to track user engagement with each feature, course completion rates, and the impact of AI suggestions on user projects. This will be crucial for data-driven iteration.
+*   **Strategy & Roadmap Deck**: A formal presentation detailing the long-term vision, target user segments, competitive analysis, and a quarter-by-quarter feature roadmap is needed for stakeholder alignment.
