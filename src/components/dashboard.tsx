@@ -84,7 +84,7 @@ export function Dashboard() {
         <SidebarHeader>
           <div className="flex items-center gap-2">
             <DomaAILogo />
-            <h1 className="text-xl font-semibold font-headline">Domestika AI</h1>
+            <h1 className="text-xl font-semibold font-headline text-sidebar-foreground">Domestika AI</h1>
           </div>
         </SidebarHeader>
         <SidebarContent>
@@ -95,6 +95,7 @@ export function Dashboard() {
                   onClick={() => setActiveView(item.id)}
                   isActive={activeView === item.id}
                   tooltip={item.label}
+                  variant="outline"
                 >
                   <item.icon />
                   <span>{item.label}</span>
