@@ -112,7 +112,7 @@ export function Dashboard() {
             {activeItemDetails && (
               <div className="flex items-center gap-2">
                 <activeItemDetails.icon className="text-primary size-6" />
-                <h2 className="text-xl font-bold tracking-tight font-headline text-primary-foreground">
+                <h2 className="text-xl font-bold tracking-tight font-headline text-card-foreground">
                   {activeItemDetails.label}
                 </h2>
               </div>
